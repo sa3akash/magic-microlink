@@ -1,0 +1,36 @@
+{
+  "name": "magic-microlink",
+  "version": "1.0.1",
+  "description": "A React component for previewing links with metadata.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "magic-microlink",
+    "sa3akash",
+    "preview",
+    "react",
+    "previsualization",
+    "microlink",
+    "data",
+    "preview"
+  ],
+  "author": "Shakil Ahmed (sa2avroo)",
+  "homepage": "https://sa3akash.com",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "styled-components": "^6.1.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/styled-components": "^5.1.34",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  }
+}
