@@ -1,1 +1,1 @@
-export { default as LinkPreview } from './LinkPreview';
+export { default as MagicMicrolink } from './MagicMicrolink';
