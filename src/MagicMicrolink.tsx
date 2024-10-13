@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
-interface LinkPreviewProps {
+interface MagicMicrolinkProps {
   url: string;
   theme: "light" | "dark";
 }
@@ -102,7 +102,7 @@ const PreviewLink = styled.a`
   }
 `;
 
-const LinkPreview: React.FC<LinkPreviewProps> = ({ url, theme }) => {
+const MagicMicrolink: React.FC<MagicMicrolinkProps> = ({ url, theme }) => {
   const [metadata, setMetadata] = useState<Metadata | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -181,4 +181,4 @@ const LinkPreview: React.FC<LinkPreviewProps> = ({ url, theme }) => {
   );
 };
 
-export default LinkPreview;
+export default MagicMicrolink;
